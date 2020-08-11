@@ -24,8 +24,8 @@
   "header-layout.mobile": {
     "children": [
       "drawer",
-      "header-row#notification",
       "header-row#main-mobile",
+      "header-row#notification",
       "header-row#search"
     ]
   },
