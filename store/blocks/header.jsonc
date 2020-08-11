@@ -16,12 +16,14 @@
   "header-layout.desktop": {
     "children": [
       "header-row#notification",
-      "header-row#main"
+      "header-row#main",
+      "header-row#menu"
     ]
   },
 
   "header-layout.mobile": {
     "children": [
+      "drawer",
       "header-row#notification",
       "header-row#main-mobile",
       "header-row#search"
@@ -93,5 +95,14 @@
     "props": {
       "url": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/flatflat___6081e50402943bcb11bc45a8e613aa72.png"
     }
+  },
+
+  // Menu
+  "header-row#menu": {
+    "children": [
+      "header-spacer",
+      "vtex.menu@2.x:menu#categories",
+      "header-spacer"
+    ]
   }
 }
